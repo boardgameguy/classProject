@@ -14,8 +14,11 @@ p { text align: left;
     font-family: Courier, monospace;
     color: #F5F5F5; }
 
-dt { font-family: Courier, monospace;
-    color: #FF8C00; }
+a:link { color: #FF8C00; }
+a:visited { color: #BDB76B}
+a:focus { color: #FF8C00; background-color: #F8F8FF}
+a:hover { color: #FF8C00; background-color: #F8F8FF}
+a:active {  color: #FFA500; background-color: #F8F8FF}
      
 dd { margine-right: 10 px;
      font-family: Courier, monospace;
