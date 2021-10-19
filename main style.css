@@ -1,0 +1,13 @@
+/* CSS for Gameboard guy page */
+
+body { background-color: #556B24; }
+
+h1 { font-family: Stencil, fantasy;
+     font-weight: 700;
+     color: #FFD700; }
+
+h2 { font-family: Stencil, fantasy;
+     color: #FFD700; }
+
+p { font-family: Courier, monospace;
+    color: #F5F5F5; }
