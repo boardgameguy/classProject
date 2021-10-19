@@ -11,3 +11,9 @@ h2 { font-family: Stencil, fantasy;
 
 p { font-family: Courier, monospace;
     color: #F5F5F5; }
+
+dt { font-family: Courier, monospace;
+    color: #FF8C00; }
+     
+dd { font-family: Courier, monospace;
+    color: #F5F5F5; }
