@@ -2,6 +2,18 @@
 
 body { background-color: #556B24; }
 
+/* header styles */
+header {
+  color: white;
+  background:  url(images/croissants_banner.jpg) no-repeat center center;
+  background-size: cover; 
+  text-align: center;
+  height: 15em;   /* Step 2 header height */
+}
+header p {
+  font-style: italic;
+  font-size: 1.2em;
+}
 h1 { text align: center;
      font-family: Stencil, fantasy;
      font-weight: 700;
