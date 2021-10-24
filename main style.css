@@ -2,18 +2,6 @@
 
 body { background-color: #556B24; }
 
-/* header styles */
-header {
-  color: #FFD700;
-  background:  img src(Board Games.JPG) no-repeat center center;
-  background-size: cover; 
-  text-align: center;
-  height: 15em;   
-}
-header p {
-  font-style: italic;
-  font-size: 1.2em;
-}
 h1 { text align: center;
      font-family: Stencil, fantasy;
      font-weight: 700;
