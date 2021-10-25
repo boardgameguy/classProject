@@ -19,7 +19,7 @@ main { grid-area: main; }
 footer { grid-area: footer; }
 
 header { height: 15em;
-         background-image: url(https://boardgameguy.github.io/Board Games_banner.jpg);
+         background-image: url(https://boardgameguy.github.io/classProject/Images/Board Games_banner.jpg);
          background-size: cover;
   }
 
