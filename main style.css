@@ -83,3 +83,6 @@ dd { margine-right: 10 px;
      color: #F5F5F5; }
 
 img { float: right; margin: 10px 12px; }
+
+footer { clear: right; 
+          Margin-top: 2em; }
