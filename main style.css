@@ -4,15 +4,46 @@ html { box-sizing: border-box; } * { box-sizing: inherit; }
 
 body { background-color: #556B24; }
 
+/* GRID LAYOUT */
+#container {
+  display: grid;
+  grid-template-rows: auto auto 5em;
+  grid-template-columns: minmax(25em, 1fr) 16em;
+  grid-template-areas: 
+    "banner banner"
+}
+
+header {
+  grid-area: banner;
+} 
+
 header { Margin-top: 0;
          height: 15em;
          padding: 3em  1em  2em  1em;
          text align: center;
-         background-image: url(main/Board Games.JPG);
-         background-repeat: no-repeat;
-         background-position: center;
-         background-size: contain;
+         background-image: url(main/Board Games.JPG) no repeat center center;
+         background-size: cover;
   }
+
+header p { text align: left;
+           font-style: Courier, monospace;
+           font-size: 1.2em;
+           margin-top: -12px;
+           color: #F5F5F5;
+}
+
+header h1 { text align: center;
+     font-family: Stencil, fantasy;
+     font-weight: 700;
+     color: #FFD700;
+     margin-top: 1.5em;
+}
+
+nav ul li a: a:link { color: #FF8C00; }
+nav ul li a:visited { color: #BDB76B}
+nav ul li a:focus { color: #FF8C00; background-color: #F8F8FF}
+nav ul li a:hover { color: #FF8C00; background-color: #F8F8FF}
+nav ul li a:active {  color: #FFA500; background-color: #F8F8FF}
 
 nav ul {   margin: 0;  
            padding: 0;
