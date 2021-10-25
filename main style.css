@@ -60,14 +60,7 @@ nav ul li a { display: block;
               margin: .5em;
 }
 
-main { padding: 15em; 
-      
-}
-
-h1 { text align: center;
-     font-family: Stencil, fantasy;
-     font-weight: 700;
-     color: #FFD700; }
+main { padding: 15em; }
 
 h2 { font-family: Stencil, fantasy;
      color: #FFD700; 
