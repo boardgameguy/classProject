@@ -11,14 +11,13 @@ body { background-color: #556B24; }
   grid-template-columns: minmax(25em, 1fr) 16em;
   grid-template-areas: 
     "banner banner"
+    "footer footer";
 }
 
-header {
-  grid-area: banner;
-} 
-main {
-  grid-area: main;
-}
+header { grid-area: banner; } 
+main { grid-area: main; }
+footer { grid-area: footer; }
+
 header { height: 15em;
          text align: center;
          background-image: url('../Images/Board Games_banner.jpg') no repeat center center;
