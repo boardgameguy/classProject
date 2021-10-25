@@ -1,0 +1,26 @@
+/* CSS for Gameboard guy page */
+
+body { background-color: #C0C0C0; }
+
+h1 { text align: center;
+     font-family: Stencil, fantasy;
+     font-weight: 700;
+     color: #0000CD; }
+
+h2 { font-family: Stencil, fantasy;
+     color: #0000CD; }
+
+h3{ font-family: Stencil, fantasy;
+     color: #0000CD; }
+
+p { text align: left;
+    font-family: Courier, monospace;
+    color: #000000; }
+
+a:link { color: #DC143C; }
+a:visited { color: #800000}
+a:focus { color: #DC143C; background-color: #DB7093}
+a:hover { color: #DC143C; background-color: #DB7093}
+a:active {  color: #FF0000; background-color: #DB7093}
+
+img { float: right; margin: 10px 12px; }
