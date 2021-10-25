@@ -21,7 +21,7 @@ main {
 }
 header { height: 15em;
          text align: center;
-         background-image: img src="Board Games_banner.jpg" no repeat center center;
+         background-image: url('./Board Games_banner.jpg') no repeat center center;
          background-size: cover;
   }
 
