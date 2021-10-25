@@ -20,7 +20,7 @@ footer { grid-area: footer; }
 
 header { height: 15em;
          text align: center;
-         background-image: url(https://boardgameguy.github.io/) no repeat center center;
+         background-image: url(https://boardgameguy.github.io/Board Games_banner.jpg) no repeat center center;
          background-size: cover;
   }
 
