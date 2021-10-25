@@ -18,9 +18,9 @@ header { grid-area: banner; }
 main { grid-area: main; }
 footer { grid-area: footer; }
 
-header { height: 15em;
-         text align: center;
-         background-image: url(https://boardgameguy.github.io/Board Games_banner.jpg) no repeat center center;
+header { height: 300px;
+         width: 100%;
+         background-image: url(https://boardgameguy.github.io/Board Games_banner.jpg);
          background-size: cover;
   }
 
