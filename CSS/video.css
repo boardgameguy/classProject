@@ -6,9 +6,11 @@ body { background-color: #C0C0C0; }
 
 .header { background-image: url(../Images/Star%20trek%20view.jpg);
          background-repeat: no repeat center center;
-         background-size: cover; }
+         background-size: cover;
+         padding: 28px 32px;
+}
      
-. headerh1 { text align: center;
+h1 { text align: center;
      font-family: Stencil, fantasy;
      font-weight: 700;
      color: #0000CD; }
@@ -20,7 +22,7 @@ body { background-color: #C0C0C0; }
             display: block;
             color: #0000CD;
             text-align: center;
-            padding: 14px 16px;
+            padding: 7px 8px;
      text-decoration: none; }
      
 .topnav a:hover {
