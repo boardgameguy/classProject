@@ -74,5 +74,6 @@ p { text align: left;
     color: #000000; }
 
 footer {  background-color: black;
+          color: #0000CD
           clear: right; 
           Margin-top: 2em; }
