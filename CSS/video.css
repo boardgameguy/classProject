@@ -18,7 +18,7 @@ header { grid-area: banner; }
 main { grid-area: main; }
 footer { grid-area: footer; }
 
-header { background-image: url(../Images/Star%20trek%20view.jpg.jpg);
+header { background-image: url(../Images/Star%20trek%20view.jpg);
          background-repeat: no repeat center center;
          background-size: cover;
          height: 15em;
@@ -73,7 +73,8 @@ p { text align: left;
     font-family: Courier, monospace;
     color: #000000; }
 
-footer {  background-color: black;
-          color: #0000CD
-          clear: right; 
+footer {  background-color: black;       
+          clear: both; 
           Margin-top: 2em; }
+
+footer p { color: #0000CD; }
