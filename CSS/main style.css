@@ -29,7 +29,8 @@ header h1 {
 }
 
 nav { background: black;
-      align: bottom;
+      overflow: hidden;
+       margin-top: -7px;
 }
 
 nav ul li a: a:link { color: #FF8C00; }
@@ -57,7 +58,7 @@ nav ul li a { display: block;
               margin: .5em;
 }
 
-main { padding: 15em; }
+main { padding: 3em; }
 
 h2 { font-family: Stencil, fantasy;
      color: #FFD700; 
