@@ -1,7 +1,63 @@
 /* CSS for Gameboard guy page */
 
+html { box-sizing: border-box; } * { box-sizing: inherit; }
+
 body { background-color: #C0C0C0; }
 
+/* GRID LAYOUT */
+#container {
+  display: grid;
+  grid-template-rows: auto auto 5em;
+  grid-template-columns: minmax(25em, 1fr) 16em;
+  grid-template-areas: 
+    "banner banner"
+    "footer footer";
+}
+
+header { grid-area: banner; } 
+main { grid-area: main; }
+footer { grid-area: footer; }
+
+header { background-image: url(../Images/Board%20Games_banner.jpg);
+         background-repeat: no repeat center center;
+         background-size: cover;
+         height: 15em;
+  }
+
+header img { float: center center; margin: 10px 12px; }
+
+header h1 { 
+     margin-top: 1.5em;
+}
+nav ul {   list-style-type: none;
+           margin: 0;  
+           padding: 0;
+           overflow: hidden;
+           background-color: black;
+           position: fixed;
+           top: 0;
+           width: 100%;
+           
+}
+
+nav ul li { float: left;
+            border-right: 1px solid #FF8C00
+}
+
+nav ul li a { display: block;
+              color: #FF8C00;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+}
+
+nav ul li a: a:link { color: #FF8C00; }
+nav ul li a:visited { color: #BDB76B}
+nav ul li a:focus { color: #FF8C00; background-color: #F8F8FF}
+nav ul li a:hover { color: #FF8C00; background-color: #F8F8FF}
+nav ul li a:active {  color: #FFA500; background-color: #F8F8FF}
+
+main { padding: 3em; }
 h1 { text align: center;
      font-family: Stencil, fantasy;
      font-weight: 700;
@@ -17,10 +73,6 @@ p { text align: left;
     font-family: Courier, monospace;
     color: #000000; }
 
-a:link { color: #DC143C; }
-a:visited { color: #800000}
-a:focus { color: #DC143C; background-color: #DB7093}
-a:hover { color: #DC143C; background-color: #DB7093}
-a:active {  color: #FF0000; background-color: #DB7093}
-
-img { float: right; margin: 10px 12px; }
+footer {  background-color: black;
+          clear: right; 
+          Margin-top: 2em; }
