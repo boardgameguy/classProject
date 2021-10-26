@@ -24,7 +24,7 @@ header { background-image: url(../Images/Board%20Games_banner.jpg);
          height: 15em;
   }
 
-header img { float: center; }
+header img { float: center; margin: 10px 12px; }
 
 header h1 { 
      margin-top: 1.5em;
@@ -80,6 +80,8 @@ a:active {  color: #FFA500; background-color: #F8F8FF}
 dd { margine-right: 10 px;
      font-family: Courier, monospace;
      color: #F5F5F5; }
+
+dd img { float: right; margin: 10px 12px; }
 
 main img { float: right; margin: 10px 12px; }
 
