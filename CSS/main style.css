@@ -81,7 +81,7 @@ dd { margine-right: 10 px;
 
 img { float: right; margin: 10px 12px; }
 
-.footer { background-color: black;
+footer { background-color: black;
           text-align: center;
           padding: 10px;
 }
