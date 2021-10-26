@@ -18,7 +18,7 @@ header { grid-area: banner; }
 main { grid-area: main; }
 footer { grid-area: footer; }
 
-header { background-image: url(../Images/Board%20Games_banner.jpg);
+header { background-image: url(../Images/Star%20trek%20view.jpg.jpg);
          background-repeat: no repeat center center;
          background-size: cover;
          height: 15em;
