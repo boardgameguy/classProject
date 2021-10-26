@@ -18,7 +18,8 @@ header { grid-area: banner; }
 main { grid-area: main; }
 footer { grid-area: footer; }
 
-header { background-image: url('../Images/Board Games_banner.jpg') no-repeat center center;
+header { background-image: url(../Images/Board%20Games_banner.jpg);
+         background-repeat: no repeat;
          background-size: cover;
          height: 15em;
   }
