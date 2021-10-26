@@ -1,58 +1,12 @@
 /* CSS for Gameboard guy page */
 
-html { box-sizing: border-box; }
-
 body { background-color: #C0C0C0; }
 
-.header { background-image: url(../Images/Star%20trek%20view.jpg);
-         background-repeat: no repeat center center;
-         background-size: cover;
-         padding: 28px 32px;
-}
-     
 h1 { text align: center;
      font-family: Stencil, fantasy;
      font-weight: 700;
      color: #0000CD; }
 
-.topnav { overflow: hidden;
-     background-color: black; }
-     
-.topnav a { float: left;
-            display: block;
-            color: #0000CD;
-            text-align: center;
-            padding: 7px 8px;
-     text-decoration: none; }
-     
-.topnav a:hover {
-     background-color: red;
-     color: black; }
-     
-.leftcolumn {
-     float: left;
-     width: 25%;
-     
-.rightcolumn {
-     float: left;
-     width: 75%;
-     padding-left: 20px; }
- 
- .vid { background-color: gray;
-      padding: 20px; }
-     
- .row:after {
-      content: "";
-      display: table;
-      clear: both: }
-     
-.footer{
-     padding 20px
-     text-align: center;
-     background: black;
-     margin-top: 20px; }
-       
-     
 h2 { font-family: Stencil, fantasy;
      color: #0000CD; }
 
@@ -63,5 +17,10 @@ p { text align: left;
     font-family: Courier, monospace;
     color: #000000; }
 
+a:link { color: #DC143C; }
+a:visited { color: #800000}
+a:focus { color: #DC143C; background-color: #DB7093}
+a:hover { color: #DC143C; background-color: #DB7093}
+a:active {  color: #FF0000; background-color: #DB7093}
 
-
+img { float: right; margin: 10px 12px; }
