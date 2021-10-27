@@ -24,9 +24,6 @@ header { background-image: url(../Images/Connect-4-Game.jpg);
          height: 15em;
   }
 
-header img { float: center center; margin: 10px 12px; }
-
-
 nav ul {   list-style-type: none;
            margin: 0;  
            padding: 0;
