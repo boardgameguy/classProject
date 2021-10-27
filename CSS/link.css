@@ -31,8 +31,7 @@ nav ul {   list-style-type: none;
            background-color: black;
            position: fixed;
            top: 0;
-           width: 100%;
-           
+           width: 100%;         
 }
 
 nav ul li { float: left;
@@ -65,21 +64,17 @@ p { text align: left;
     font-family: Courier, monospace;
     color: #F5F5F5; }
 
-a:link { color: #A0522D; }
+a:link { color: #FF8C00; }
 a:visited { color: #BDB76B}
-a:focus { color: #A0522D; background-color: #B8860B}
-a:hover { color: #A0522D; background-color: #B8860B}
-a:active {  color: #A52A2A; background-color: #B8860B}
+a:focus { color: #FF8C00; background-color: #F8F8FF}
+a:hover { color: #FF8C00; background-color: #F8F8FF}
+a:active {  color: #FF8C00; background-color: #F8F8FF}
      
 dd { margine-right: 10 px;
      font-family: Courier, monospace;
      color: #A0522D; }
 
-
-
-
-
 footer {  background-color: black;
           clear: right; 
           Margin-top: 2em; }
-}
+
