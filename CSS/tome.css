@@ -14,7 +14,7 @@ body {
   padding: 30px;
   text-align: center;
   background: url(../Images/HeroQuest.jpg);
-  background-align: bottom;
+  background-repeat: no repeat center center;
   object-fit: contain;
 }
 
