@@ -52,7 +52,7 @@ body {
 
 /* Right column */
 .rightcolumn {
-  float: right;
+  float: left;
   width: 75%;
   padding-left: 20px;
 }
