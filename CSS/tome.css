@@ -45,7 +45,7 @@ body {
 .navbar a:hover { color: #FF8C00; background-color: #F8F8FF}
 
 .sidenav {
-  width: 150px;
+  width: 200px;
   position: fixed;
   z-index: 1;
   top: 300px;
@@ -70,7 +70,7 @@ body {
 
 /* Style page content */
 .main {
-  margin-left: 140px; /* Same as the width of the sidebar */
+  margin-left: 200px; /* Same as the width of the sidebar */
   padding: 0px 10px;
 }
 
