@@ -13,6 +13,7 @@ body {
   padding: 30px;
   text-align: center;
   background: url(../Images/StartrekView.jpg);
+  background-align: bottom;
   object-fit: contain;
 }
 
@@ -67,6 +68,7 @@ video {
   height: 500px;
   width:250px;
   object-fit: contain; 
+  video-align: top;
 }
   
 
