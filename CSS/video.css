@@ -6,43 +6,54 @@ body { background-color: #C0C0C0; }
 
 
 
-header { background-image: url(../Images/StartrekView.jpg);
+.header { background-image: url(../Images/StartrekView.jpg);
          background-repeat: no repeat center center;
          background-size: cover;
-         height: 15em;
+         padding: 20px;
   }
 
 
-nav ul {   list-style-type: none;
-           margin: 0;  
-           padding: 0;
-           overflow: hidden;
-           background-color: black;
-           position: fixed;
-           top: 0;
-           width: 100%;
-           
+.navbar {  overflow: hidden;
+           background-color: black;      
 }
 
-nav ul li { float: left;
-            border-right: 1px solid #FF8C00
+.navbar a { float: left;
+            display: block;
+            color: #FF8C00;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
 }
 
-nav ul li a { display: block;
-              color: #FF8C00;
-              text-align: center;
-              padding: 14px 16px;
-              text-decoration: none;
-}
-
-nav ul li a: a:link { color: #FF8C00; }
-nav ul li a:visited { color: #BDB76B}
-nav ul li a:focus { color: #FF8C00; background-color: #F8F8FF}
-nav ul li a:hover { color: #FF8C00; background-color: #F8F8FF}
-nav ul li a:active {  color: #FFA500; background-color: #F8F8FF}
+.navbar a: a:link { color: #FF8C00; }
+.navbar a:visited { color: #BDB76B}
+.navbar a:focus { color: #FF8C00; background-color: #F8F8FF}
+.navbar a:hover { color: #FF8C00; background-color: #F8F8FF}
+.navbar a:active {  color: #FFA500; background-color: #F8F8FF}
 
 main { padding: 3em; }
 
+.column {
+         float: left;
+         width: 25%;
+}
+
+.column {
+         float:left;
+         width: 75%;
+}
+
+.row:after {
+         content: "";
+         display: table;
+         clear: both;
+}
+
+@media screen and (max-width: 600px) {
+         .column: {
+                  width: 100%
+         }
+}
 h2 { font-family: Stencil, fantasy;
      color: #0000CD; }
 
@@ -53,10 +64,9 @@ p { text align: left;
     font-family: Courier, monospace;
     color: #000000; }
 
-video { float: left; 
-  margin: 10px 12px; }
 
-footer {  background-color: black;       
-          Margin-top: 2em; }
+.footer {  background-color: black; 
+         text-align: center;
+          padding: 10px; }
 
 footer p { color: #0000CD; }
