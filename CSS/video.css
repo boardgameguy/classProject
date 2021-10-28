@@ -57,6 +57,7 @@ body {
 /* video*/
 .video {
   background-color: #aaa;
+  height: 50%;
   width: 100%;
   padding: 20px;
 }
