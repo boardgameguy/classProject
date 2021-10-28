@@ -61,6 +61,12 @@ body {
   padding: 20px;
 }
 
+.video video {
+  max-width: 100%;
+  max-width: 100%;
+}
+   
+
 /* Add a card effect for articles */
 .card {
   padding: 20px;
