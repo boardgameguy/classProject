@@ -5,8 +5,8 @@ html { box-sizing: border-box;}
 body {
   font-family: Courier, monospace;
   padding: 10px;
-  background: #C0C0C0;
-  text-color: #0000CD
+  background: #32CD32;
+  text-color: #7B68EE;
 }
 
 /* Header */
@@ -44,12 +44,12 @@ body {
 .navbar a:hover { color: #FF8C00; background-color: #F8F8FF}
 
 .sidenav {
-  width: 130px;
+  width: 150px;
   position: fixed;
   z-index: 1;
-  top: 100px;
+  top: 300px;
   left: 10px;
-  background: #eee;
+  background: Black;
   overflow-x: hidden;
   padding: 8px 0;
 }
