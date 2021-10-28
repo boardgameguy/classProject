@@ -5,7 +5,7 @@ html { box-sizing: border-box;}
 body {
   font-family: Courier, monospace;
   padding: 10px;
-  background: #C0C0C0;
+  background: #0000CD;
 }
 
 /* Header */
@@ -68,7 +68,7 @@ video {
   height: 500px;
   width:250px;
   object-fit: contain; 
-  video-align: top;
+  float: top;
 }
   
 
@@ -91,7 +91,7 @@ video {
   padding: 20px;
   text-align: center;
   background: black;
-  color: #FF8C00;
+  color: #0000CD;
   margin-top: 20px;
 }
 
