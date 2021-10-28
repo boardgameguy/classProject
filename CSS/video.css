@@ -58,12 +58,18 @@ body {
 /* video*/
 .video {
   background-color: #aaa;
-  height: 300px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
   object-fit: contain;  
   padding: 20px;
 }
-   
+  
+video {
+  height: 300px;
+  width: 150px;
+  object-fit: contain; 
+}
+  
 
 /* Add a card effect for articles */
 .card {
