@@ -5,7 +5,8 @@ html { box-sizing: border-box;}
 body {
   font-family: Courier, monospace;
   padding: 10px;
-  background: #0000CD;
+  background: #C0C0C0;
+  text-color: #0000CD
 }
 
 /* Header */
