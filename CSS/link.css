@@ -45,6 +45,14 @@ nav ul li a { display: block;
               text-decoration: none;
 }
 
+nav ul li input { float: right;
+                  padding: 6px;
+                  border: none;
+                  margin-top: 8px;
+                  margin-right: 16px;
+                  font-size: 17px;
+}
+
 nav ul li a: a:link { color: #FF8C00; }
 nav ul li a:visited { color: #BDB76B}
 nav ul li a:focus { color: #FF8C00; background-color: #F8F8FF}
