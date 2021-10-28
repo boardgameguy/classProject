@@ -59,7 +59,7 @@ body {
 .video {
   background-color: #aaa;
   height: 100%;
-  width: 50%;
+  width: 100%;
   padding: 20px;
 }
   
@@ -72,8 +72,7 @@ video {
 
 /* Add a card effect for articles */
 .card {
-   height: 500px;
-  width:250px;
+ 
   padding: 20px;
   margin-top: 20px;
 }
