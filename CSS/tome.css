@@ -74,6 +74,8 @@ body {
   padding: 0px 10px;
 }
 
+img { float: right; margin: 10px 12px; }
+
 /* Add a card effect for articles */
 .card {
    padding: 20px;
