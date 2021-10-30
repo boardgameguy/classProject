@@ -73,7 +73,7 @@ div.desc {
 /* Footer */
 .footer {
    position: absolute;
-   bottom: 0;
+   bottom: 0px;
   padding: 20px;
   text-align: center;
   background: black;
