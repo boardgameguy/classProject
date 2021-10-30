@@ -13,7 +13,7 @@ body {
 .header {
   padding: 30px;
   text-align: center;
-  background: url(../Images/HeroQuest.jpg);
+  background: url(../Images/cards.jpg);
   background-align: bottom;
   object-fit: contain;
 }
