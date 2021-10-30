@@ -1,0 +1,83 @@
+/* CSS for Gameboard guy page Tome */
+
+html { box-sizing: border-box;}
+
+body {
+  font-family: Courier, monospace;
+  padding: 10px;
+  background: gray;
+  text-color: red;
+}
+
+/* Header */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: url(../Images/HeroQuest.jpg);
+  background-align: bottom;
+  object-fit: contain;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the topnav links */
+.navbar a {
+  float: left;
+  display: block;
+  color: #FF8C00;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:visited { color: #BDB76B}
+.navbar a:focus { color: #FF8C00; background-color: #F8F8FF}
+.navbar a:hover { color: #FF8C00; background-color: #F8F8FF}
+
+
+/* Add a card effect for articles */
+.card {
+   padding: 20px;
+  margin-top: 20px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  color: red;
+  margin-top: 20px;
+}
+
+
+
