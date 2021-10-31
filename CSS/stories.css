@@ -6,7 +6,7 @@ body {
   font-family: Courier, monospace;
   padding: 10px;
   background: purple;
-  text-color: gray;
+  color: gray;
 }
 
 /* Header */
@@ -15,12 +15,13 @@ body {
   text-align: center;
   background: url(../Images/adventures.jpg);
   background-repeat: no repeat center center;
-  object-fit: contain;
+  background-size: cover;
+ 
 }
 
 .header h1 {
   font-size: 50px;
-  text-color: gray;
+  color: gray;
 }
 
 /* Style the top navigation bar */
